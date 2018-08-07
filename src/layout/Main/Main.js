@@ -24,7 +24,7 @@ class Main extends Component {
     const { classes } = this.props;
     return (
       <main className={classes.mainLayout}>
-        <div className={classes.mainContainer}></div>
+        {/*<div className={classes.mainContainer}></div>*/}
       </main>
     );
   }

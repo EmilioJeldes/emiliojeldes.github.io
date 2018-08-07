@@ -1,13 +1,10 @@
-import Particles from "react-particles-js";
 import PropTypes from "prop-types";
 import React from "react";
 import withStyles from "react-jss";
 
-import particles from "./particles";
-
 const styles = {
   container: {
-    background: "linear-gradient(90deg, #111111, #341058)",
+    background: "linear-gradient(to top right, #111 20%, #341058)",
     width: "100vw",
     height: "100vh",
     zIndex: "-10",
@@ -26,18 +23,17 @@ const styles = {
   }
 };
 
-const ParticlesBackground = props => {
+const BackgroundGradient = props => {
   const { classes } = props;
   return (
     <div className={classes.container}>
-      {/*<Particles params={particles} height={"100vh"} />*/}
       <div className={classes.overlay} />
     </div>
   );
 };
 
-ParticlesBackground.propTypes = {
+BackgroundGradient.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(ParticlesBackground);
+export default withStyles(styles)(BackgroundGradient);

@@ -7,7 +7,7 @@ import "./App.css";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import "../assets/fonts/Revalia-Regular.ttf";
 
-import ParticlesBackground from "../components/ParticlesBackground/ParticlesBackground";
+import BackgroundGradient from "../components/BackgroundGradient/BackgroundGradient";
 import SideBar from "../layout/SideBar/SideBar";
 import Main from "../layout/Main/Main";
 import SmartNav from "../layout/SmartNav/SmartNav";
@@ -34,7 +34,7 @@ class App extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.appContainer}>
-        <ParticlesBackground />
+        <BackgroundGradient />
         <SmartNav />
         <div className={classes.appLayout}>
           <SideBar />
