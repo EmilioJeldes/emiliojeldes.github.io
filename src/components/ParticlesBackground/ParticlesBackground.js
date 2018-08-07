@@ -30,7 +30,7 @@ const ParticlesBackground = props => {
   const { classes } = props;
   return (
     <div className={classes.container}>
-      <Particles params={particles} height={"100vh"} />
+      {/*<Particles params={particles} height={"100vh"} />*/}
       <div className={classes.overlay} />
     </div>
   );

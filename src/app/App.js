@@ -24,9 +24,9 @@ const styles = {
     }
   },
   appLayout: {
-    display: 'flex',
-    height: '100%',
-    flex: '1 1 auto'
+    display: "flex",
+    height: "100%",
+    flex: "1 1 auto"
   }
 };
 class App extends Component {
